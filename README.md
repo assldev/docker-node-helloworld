@@ -10,6 +10,5 @@ docker run -v ./app:/app -w /app -it -p 3000:3000 --name helloworld_node_contain
 
 # Enter docker container
 ```sh
-docker exec -it helloworld_node_container bash  # starts with bash
-docker exec -it helloworld_node_container sh  # starts with sh
+docker exec -it helloworld_node_container sh 
 ```
